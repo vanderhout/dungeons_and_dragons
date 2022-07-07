@@ -67,7 +67,7 @@ class HitPointDistribution:
             cumulative_sum += self._hp_occurrence_count[c]
             cumulative_percentage = round(cumulative_sum/total * 10000) / 100
 
-            print(f'{c}\t{self._hp_occurrence_count[c]}\t\t{cumulative_percentage}')
+            print(f'{c}\t{cumulative_percentage}')
 
 
 def Jasira():
